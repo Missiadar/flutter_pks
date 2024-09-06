@@ -9,5 +9,3 @@
 
 
 * [pks_mobilka](pks_mobilka/README.md)
-
-* [LaunchImage.imageset](LaunchImage.imageset/README.md)
