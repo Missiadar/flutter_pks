@@ -30,4 +30,4 @@ flutter run
 ### Скрншоты работы
 
 <img src="/-static/practice_1/android_app.png" />&nbsp;
-<img src="/-static/practice_1/chrome_app.png" />
+<img src="/-static/practice_1/web_app.png" />
