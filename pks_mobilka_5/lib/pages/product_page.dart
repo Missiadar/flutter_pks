@@ -93,13 +93,13 @@ class ProductPage extends StatelessWidget {
                           style: ElevatedButton.styleFrom(
                             padding: const EdgeInsets.symmetric(vertical: 10),
                             backgroundColor:
-                                const Color.fromARGB(255, 216, 213, 213),
+                                const Color.fromARGB(255, 255, 255, 255),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),
                           ),
                           child: Icon(
-                            Icons.favorite_border,
+                            Icons.favorite,
                             color: product.isFavorite
                                 ? const Color.fromRGBO(252, 133, 7, 1)
                                 : const Color.fromARGB(255, 94, 91, 91),

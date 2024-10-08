@@ -1,16 +1,13 @@
-# pks_mobilka_5
+# Программирование корпоративных систем
+Дисциплина: **Программирование корпоративных систем** <br>
+Семестр: 5 <br>
+Практика: №5
+Выполнил студент **ЭФБО-01-22 Холкин Данила Сергеевич** <br>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Содержание работы
+Описание работы <br>
+<img src="/-static/practice_5/home_page.png" />
+<img src="/-static/practice_5/add_favorite.png" />
+<img src="/-static/practice_5/not_favorite.png" />
+<img src="/-static/practice_5/favorite.png" />
+<img src="/-static/practice_5/profile.png" />

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pks_mobilka_5/data/data.dart';
 import 'package:pks_mobilka_5/pages/product_page.dart';
 import '../components/product_card.dart';
-import '../models/product.dart';
 
 
 class FavoritePage extends StatefulWidget {
@@ -12,7 +12,7 @@ class FavoritePage extends StatefulWidget {
 }
 
 class _FavoritePageState extends State<FavoritePage> {
-  void toProductPage(BuildContext context, int index) {
+   void toProductPage(BuildContext context, int index) {
     Navigator.push(
       context,
       MaterialPageRoute(
@@ -25,8 +25,6 @@ class _FavoritePageState extends State<FavoritePage> {
       ),
     );
   }
-
-final List<Product> products = [];
   @override
   Widget build(BuildContext context) {
     final favoriteProducts =

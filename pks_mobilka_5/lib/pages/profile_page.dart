@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -22,32 +21,35 @@ class ProfilePage extends StatelessWidget {
       body: Container(
         height: MediaQuery.of(context).size.height,
         color: const Color.fromARGB(255, 255, 255, 255),
-        child: Center(
+        child: const Center(
           child: Column(
             children: [
               const SizedBox(height: 40),
-              Container(
-                width: 200,
-                height: 200,
-                clipBehavior: Clip.antiAlias,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color: const Color.fromARGB(255, 255, 255, 255),
-                    width: 12,
-                  ),
-                ),
-                child: SvgPicture.network(
-                  'https://pinia-ru.netlify.app/logo.svg',
-                  fit: BoxFit.cover,
-                  width: 12,
+              CircleAvatar(
+                radius: 100,
+                backgroundImage: const NetworkImage(
+                  'https://avatars.githubusercontent.com/u/100504552?s=400&u=26a36ae18fbeaf991b6227d1fcb39a7224484820&v=4',
                 ),
               ),
               const SizedBox(height: 30),
               const Text(
-                "Александр Пешков",
+                "Холкин Данила Сергеевич",
                 style: TextStyle(
-                  fontSize: 14,
+                  fontSize: 25,
+                  color: Color.fromARGB(255, 51, 51, 51),
+                ),
+              ),
+              const Text(
+                "danila-kholkkkin@mail.ru",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Color.fromARGB(255, 51, 51, 51),
+                ),
+              ),
+              const Text(
+                "+7 (914) 874-54-78",
+                style: TextStyle(
+                  fontSize: 15,
                   color: Color.fromARGB(255, 51, 51, 51),
                 ),
               ),

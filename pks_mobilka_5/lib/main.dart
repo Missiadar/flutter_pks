@@ -67,7 +67,7 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Профиль',
           ),
         ],
-        selectedItemColor: const Color.fromARGB(255, 231, 143, 12),
+        selectedItemColor: const Color.fromRGBO(252, 133, 7, 1),
         unselectedItemColor: const Color.fromARGB(255, 164, 164, 164),
       ),
     );
