@@ -9,5 +9,5 @@
 <img src="/-static/practice_5/home_page.png" />
 <img src="/-static/practice_5/add_favorite.png" />
 <img src="/-static/practice_5/not_favorite.png" />
-<img src="/-static/practice_5/favorite.png" />
-<img src="/-static/practice_5/profile.png" />
+<img src="/-static/practice_5/favorite_page.png" />
+<img src="/-static/practice_5/profile_page.png" />
