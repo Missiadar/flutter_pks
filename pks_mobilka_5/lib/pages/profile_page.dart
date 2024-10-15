@@ -24,29 +24,29 @@ class ProfilePage extends StatelessWidget {
         child: const Center(
           child: Column(
             children: [
-              const SizedBox(height: 40),
+              SizedBox(height: 40),
               CircleAvatar(
                 radius: 100,
-                backgroundImage: const NetworkImage(
+                backgroundImage: NetworkImage(
                   'https://avatars.githubusercontent.com/u/100504552?s=400&u=26a36ae18fbeaf991b6227d1fcb39a7224484820&v=4',
                 ),
               ),
-              const SizedBox(height: 30),
-              const Text(
+              SizedBox(height: 30),
+              Text(
                 "Холкин Данила Сергеевич",
                 style: TextStyle(
                   fontSize: 25,
                   color: Color.fromARGB(255, 51, 51, 51),
                 ),
               ),
-              const Text(
+              Text(
                 "danila-kholkkkin@mail.ru",
                 style: TextStyle(
                   fontSize: 20,
                   color: Color.fromARGB(255, 51, 51, 51),
                 ),
               ),
-              const Text(
+              Text(
                 "+7 (914) 874-54-78",
                 style: TextStyle(
                   fontSize: 15,
