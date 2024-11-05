@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    final List<Widget> _pages = [
+    final List<Widget> pages = [
       MainPage(
         items: items,
         onAddToCart: addToCart,
@@ -101,7 +101,7 @@ class _MyAppState extends State<MyApp> {
       const ProfilePage(),
     ];
 
-    void _onItemTapped(int index) {
+    void onItemTapped(int index) {
       setState(() {
         _selectedIndex = index;
       });
@@ -117,10 +117,10 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
       home: Scaffold(
-        body: _pages.elementAt(_selectedIndex),
+        body: pages.elementAt(_selectedIndex),
         bottomNavigationBar: NavBar(
           selectedIndex: _selectedIndex,
-          onTap: _onItemTapped,
+          onTap: onItemTapped,
         ),
       ),
     );
