@@ -21,3 +21,5 @@
 * [pks_mobilka_6](pks_mobilka_6/README.md)
 
 * [pks_mobilka_7](pks_mobilka_7/README.md)
+
+* [pks_mobilka_8](pks_mobilka_8/README.md)
